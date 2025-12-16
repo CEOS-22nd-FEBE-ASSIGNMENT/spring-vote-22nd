@@ -34,7 +34,11 @@ public enum ErrorStatus implements BaseErrorCode {
     DUPLICATE_EMAIL(HttpStatus.CONFLICT, "AUTH409", "이미 사용 중인 이메일입니다."),
     DESIGNER_FIELDS_REQUIRED(HttpStatus.BAD_REQUEST, "AUTH400", "디자이너 회원가입에 필요한 정보가 누락되었습니다."),
     LOGIN_FAIL(HttpStatus.UNAUTHORIZED, "AUTH401", "아이디 또는 비밀번호가 잘못 되었습니다."),
-    ;
+
+    //Candidate
+    NOT_FOUND_CANDIDATE(HttpStatus.NOT_FOUND, "CANDIDATE404", "후보자를 찾을 수 없습니다."),
+    MISMATCH_PART(HttpStatus.BAD_REQUEST, "VOTE400", "자신이 속한 파트의 파트장 투표만 가능합니다."),
+    DUPLICATE_VOTE(HttpStatus.CONFLICT, "VOTE409", "중복 투표는 불가능합니다.");
 
 
     private final HttpStatus httpStatus;
