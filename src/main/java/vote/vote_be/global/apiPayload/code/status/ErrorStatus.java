@@ -38,8 +38,8 @@ public enum ErrorStatus implements BaseErrorCode {
     //Candidate
     NOT_FOUND_CANDIDATE(HttpStatus.NOT_FOUND, "CANDIDATE404", "후보자를 찾을 수 없습니다."),
     MISMATCH_PART(HttpStatus.BAD_REQUEST, "VOTE400", "자신이 속한 파트의 파트장 투표만 가능합니다."),
-    DUPLICATE_VOTE(HttpStatus.CONFLICT, "VOTE409", "중복 투표는 불가능합니다.");
-
+    DUPLICATE_VOTE(HttpStatus.CONFLICT, "VOTE409", "중복 투표는 불가능합니다."),
+    NOT_FOUND_DEMODAY(HttpStatus.NOT_FOUND, "CANDIDATE404", "데모데이 팀을 찾을 수 없습니다.");
 
     private final HttpStatus httpStatus;
     private final String code;
