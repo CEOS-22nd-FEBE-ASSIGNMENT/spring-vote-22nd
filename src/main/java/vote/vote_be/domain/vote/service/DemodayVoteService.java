@@ -36,6 +36,10 @@ public class DemodayVoteService {
             throw new GeneralException(ErrorStatus.NOT_FOUND_DEMODAY);
         }
 
+        if (user.getTeam() == candidate.getTeam()) {
+            throw new GeneralException(ErrorStatus.CANNOT_VOTE_OWN_TEAM);
+        }
+
         voteService.existAlreadyVote(user, VoteCategory.DEMODAY);
 
         Vote vote = Vote.builder()
