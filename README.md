@@ -13,4 +13,4 @@
 
 **ERD**
 
-<img width="1530" height="962" alt="Image" src="https://github.com/user-attachments/assets/3d3bde4d-7113-4225-ba4f-f2dd6bb53124" />
+<img width="941" height="580" alt="image" src="https://github.com/user-attachments/assets/925f37f7-c666-4452-a28a-ced1b6edc737" />
