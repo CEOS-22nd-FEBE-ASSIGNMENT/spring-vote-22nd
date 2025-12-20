@@ -1,4 +1,3 @@
-spring-vote-22nd
 # 프백 합동 과제 - Modelly 팀
 
 ### 1. 서비스 소개 / 시연
@@ -15,4 +14,3 @@ spring-vote-22nd
 **ERD**
 
 <img width="1530" height="962" alt="Image" src="https://github.com/user-attachments/assets/3d3bde4d-7113-4225-ba4f-f2dd6bb53124" />
-
